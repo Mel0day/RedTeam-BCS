@@ -10,8 +10,7 @@ tips：1~2cpu 2G内存 10G硬盘，回连数不超过5台，潜伏通道（根�
 完整架构： 域名和IP（VPS）teamserver（CS）前置机（redictor）
 CS -》teamservers 1/2/3/... 前置层（SMTP/PAYLOAD/C2/隐蔽C2）
 
-* 选择域名![-w1176](media/15663521730229/15663532496100.jpg)
-
+* 选择域名
     * 抢注过期域名 expireddomains.net  DELETE DOMAIN
     * tips1: 不要包含世界大厂和杀毒厂商相关的域名，以及和目标相关的域名
     * tips2：注册目标相关区域常见的域名，记得开隐私保护
