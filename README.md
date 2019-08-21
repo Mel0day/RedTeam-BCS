@@ -1,4 +1,6 @@
 # RED TEAM 
+> powered by QAX A-TEAM
+
 ## 基础架构设计 
 
 普通架构：红队人员--》teamserver cs--》目标机
@@ -194,7 +196,7 @@ CS -》teamservers 1/2/3/... 前置层（SMTP/PAYLOAD/C2/隐蔽C2）
                 * nltest 提取域控信息的过程
                 * net
                 * dsquery 通过对LDAP进行查询
-            * dsquery/ADSISearcher使用铭文的LDAP协议，容易被IDS捕获
+            * dsquery/ADSISearcher使用明文的LDAP协议，容易被IDS捕获
     * 定位域控（域外主机）
         * DNS排查
             * Scan UDP/53
