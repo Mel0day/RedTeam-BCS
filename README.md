@@ -1,6 +1,9 @@
 # RED TEAM 
 > Powered by QAX A-TEAM
 
+## TL;DR
+![image](https://github.com/Mel0day/RedTeam-BCS/blob/master/RTsteps.jpeg)
+
 ## 基础架构设计 
 
 普通架构：红队人员--》teamserver cs--》目标机
