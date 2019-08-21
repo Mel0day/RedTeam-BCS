@@ -1,8 +1,6 @@
 # RED TEAM 
 > Powered by QAX A-TEAM
 
-## TL;DR
-![image](https://github.com/Mel0day/RedTeam-BCS/blob/master/RTsteps.jpeg)
 
 ## 基础架构设计 
 
@@ -111,6 +109,8 @@ CS -》teamservers 1/2/3/... 前置层（SMTP/PAYLOAD/C2/隐蔽C2）
             * 收件人超过5000个
     * BYPASS ANTI-MALWARE
     * NDR
+* 总结
+![image](https://github.com/Mel0day/RedTeam-BCS/blob/master/RTsteps.jpeg)
 
 ## 钓鱼样本制作
 * 钓鱼邮件类型
