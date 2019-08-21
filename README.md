@@ -1,5 +1,5 @@
 # RED TEAM 
-> powered by QAX A-TEAM
+> Powered by QAX A-TEAM
 
 ## 基础架构设计 
 
