@@ -20,6 +20,7 @@ tips：1~2cpu 2G内存 10G硬盘，回连数不超过5台，潜伏通道（根�
 
 完整架构： 域名和IP（VPS）teamserver（CS）前置机（redictor）
 CS -》teamservers 1/2/3/... 前置层（SMTP/PAYLOAD/C2/隐蔽C2）
+![image](https://github.com/Mel0day/RedTeam-BCS/blob/master/arch-design.jpeg)
 
 * 选择域名
 ![image](https://github.com/Mel0day/RedTeam-BCS/blob/master/15663532496100.jpg)
@@ -81,8 +82,8 @@ CS -》teamservers 1/2/3/... 前置层（SMTP/PAYLOAD/C2/隐蔽C2）
     * 正确配置SPF、DKIM\DMARC
     * SSL证书
     * 发送时间和频率
-    * 一键部署
-    * 钓鱼邮件框架：Gophish
+    * 一键部署：LuWu（https://github.com/QAX-A-Team/LuWu）
+    * 钓鱼邮件框架：Gophish (https://github.com/gophish/gophish)
 
 * 隐蔽性和安全性
     * 权限最小化：使用iptalbes限定组件通讯，SSH进行端口转发
