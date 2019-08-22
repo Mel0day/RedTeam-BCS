@@ -82,7 +82,7 @@ CS -》teamservers 1/2/3/... 前置层（SMTP/PAYLOAD/C2/隐蔽C2）
     * 正确配置SPF、DKIM\DMARC
     * SSL证书
     * 发送时间和频率
-    * 一键部署：LuWu（https://github.com/QAX-A-Team/LuWu）
+    * 一键部署
     * 钓鱼邮件框架：Gophish (https://github.com/gophish/gophish)
 
 * 隐蔽性和安全性
@@ -92,7 +92,7 @@ CS -》teamservers 1/2/3/... 前置层（SMTP/PAYLOAD/C2/隐蔽C2）
         * 解决方案：V2ray + Nginx + CLoudflare + Freenom+ Websocket 搭建代理
 * 基础设施监控系统
     * 记录完整日志，设置告警
-    * 自动化
+    * 自动化部署 LuWu（https://github.com/QAX-A-Team/LuWu）
     * 日志中心
 
     
