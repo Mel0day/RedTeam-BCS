@@ -74,7 +74,29 @@ CS -》teamservers 1/2/3/... 前置层（SMTP/PAYLOAD/C2/隐蔽C2）
             * tips：good domain + bad domain 包一层同时发过去
     * 第三方服务用作C2
         * Office365、Pastebin、Slack、Facebook、Dropbox、Gmail、Twitter..
-        * 需要硬编码到第三方服务
+        * 缺点：需要硬编码到第三方服务
+        * 第三方服务用作C2相关资源汇总
+https://pentestarmoury.com/2017/07/19/s3-buckets-for-good-and-evil/
+https://rhinosecuritylabs.com/aws/hiding-cloudcobalt-strike-beacon-c2-using-amazon-apis/
+https://github.com/daniel-infosec/wikipedia-c2
+https://unit42.paloaltonetworks.com/aggah-campaign-bit-ly-blogspot-and-pastebin-used-for-c2-in-large-scale-campaign
+https://www.harmj0y.net/blog/powershell/command-and-control-using-active-directory/
+https://blog.netspi.com/databases-and-clouds-sql-server-as-a-c2/
+https://outflank.nl/blog/2017/09/17/blogpost-cobalt-strike-over-external-c2-beacon-home-in-the-most-obscure-ways
+https://labs.mwrinfosecurity.com/blog/tasking-office-365-for-cobalt-strike-c2
+https://github.com/maldevel/canisrufus
+https://unit42.paloaltonetworks.com/darkhydrus-delivers-new-trojan-that-can-use-google-drive-for-c2-communications
+https://github.com/byt3bl33d3r/gcat
+https://github.com/maldevel/gdog
+https://www.welivesecurity.com/wp-content/uploads/2019/05/ESET-LightNeuron.pdf
+https://github.com/bkup/SlackShell
+https://github.com/j3ssie/c2s
+https://github.com/praetorian-code/slack-c2bot
+https://github.com/microsoft/skype-dev-bots
+https://github.com/PaulSec/twittor
+https://blog.talosintelligence.com/2017/04/introducing-rokrat.html
+https://www2.fireeye.com/rs/848-DID-242/images/rpt-apt29-hammertoss.pdf
+https://github.com/woj-ciech/Social-media-c2
 
 * 邮件钓鱼（SMTP）
     * 域名：同C2域名选择
