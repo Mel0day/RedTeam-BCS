@@ -1,8 +1,16 @@
 # RED TEAM 
 > Powered by QAX A-TEAM
 
+## Summary
 
-## 基础架构设计 
+![image](https://github.com/Mel0day/RedTeam-BCS/blob/master/summary.jpeg)
+
+## 情报收集与外网打点
+
+因为起晚了..第一个议题没听着，有点遗憾，补张图
+![image](https://github.com/Mel0day/RedTeam-BCS/blob/master/search.jpeg)
+
+## 基础设施架构设计部署 
 
 普通架构：红队人员--》teamserver cs--》目标机
 缺点：功能未分离、无潜伏通道、回连日志多、灵活性较低
@@ -87,7 +95,7 @@ CS -》teamservers 1/2/3/... 前置层（SMTP/PAYLOAD/C2/隐蔽C2）
     * 日志中心
 
     
-## 邮件钓鱼
+## 邮件钓鱼之前期信息收集与侦查
 * 面临的技术挑战：
     * 邮件网关 mail gateway
     * 浏览器
